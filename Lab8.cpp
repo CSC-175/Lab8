@@ -1,8 +1,7 @@
-// The Fibonacci sequence is a series of numbers in which each number is the sum 
-// of the two that precede it. Starting at 0 and 1, the sequence looks like this: 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, and so on forever. 
-// The Fibonacci sequence can be described using a mathematical equation: XN+2 = XN+1 + XN
-
-// Write a program that will prompt the user for an integer that will define how many values in the Fibonacci sequence to print to the screen.
+// The factorial of a number n is the product of all numbers from 1 up to the number n.
+// For example n=5 then the factorial of 5 will be 1*2*3*4*5= 120, so 5!= 120.
+// Write a program that prompts a user to enter a positive integer less than 13 
+// then uses a for loop to calculate the factorial of n and print it to the screen.
 
 #include <iostream>
 using namespace std;
