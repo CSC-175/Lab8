@@ -5,7 +5,7 @@ The factorial of a number n is the product of all numbers from 1 up to the numbe
 For example n=5 then the factorial of 5 will be 1*2*3*4*5= 120, so 5 factorial is 120.
 
 ## Directions
-Write a program that prompts a user to enter a positive integer less than 13 then uses a for loop to calculate the factorial of n and print it to the screen.
+Write a program that prompts a user to enter a positive integer less than 13 then uses a for loop to calculate the factorial of n and print it to the screen. <b>Note: The factorial of 13 will overflow the 32 bits used to store an integer.</b>
 
 ## Interface Prototype Example
 
