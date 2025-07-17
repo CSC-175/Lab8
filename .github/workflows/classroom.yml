@@ -1,6 +1,6 @@
 name: Autograding Tests
 'on':
-- workflow_dispatch
+- push
 - repository_dispatch
 permissions:
   checks: write
@@ -24,6 +24,7 @@ jobs:
         expected-output: 7 factorial is equal to 5040
         comparison-method: contains
         timeout: 1
+        max-score: 5
     - name: Test 2
       id: test-2
       uses: classroom-resources/autograding-io-grader@v1
@@ -31,10 +32,11 @@ jobs:
         test-name: Test 2
         setup-command: g++ Lab8.cpp -o Lab8
         command: "./Lab8"
-        input: '8'
-        expected-output: 8 factorial is equal to 40320
+        input: '5'
+        expected-output: 5 factorial is equal to 120
         comparison-method: contains
         timeout: 1
+        max-score: 5
     - name: Test 3
       id: test-3
       uses: classroom-resources/autograding-io-grader@v1
@@ -42,10 +44,13 @@ jobs:
         test-name: Test 3
         setup-command: g++ Lab8.cpp -o Lab8
         command: "./Lab8"
-        input: '5'
-        expected-output: 5 factorial is equal to 120
+        input: '9
+
+          '
+        expected-output: 9 factorial is equal to 362880
         comparison-method: contains
         timeout: 1
+        max-score: 5
     - name: Autograding Reporter
       uses: classroom-resources/autograding-grading-reporter@v1
       env:
