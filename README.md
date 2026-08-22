@@ -16,8 +16,10 @@ Write a program that prompts a user to enter a positive integer less than 13 the
 <pre><b>Enter a positive integer: 8
 7 factorial is equal to 40320</b></pre>
 ### Test Case 3 Output
-<pre><b>Enter an integer value: 4
-The sum of the digits is 24</b></pre>
+<pre><b>Enter a positive integer: 13
+Invalid integer! Try again!
+Enter a positive integer: 12
+12 factorial is equal to 479001600</b></pre>
 
 
 
