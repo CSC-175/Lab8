@@ -14,7 +14,7 @@ Write a program that prompts a user to enter a positive integer less than 13 the
 7 factorial is equal to 5040</b></pre>
 ### Test Case 2 Output
 <pre><b>Enter a positive integer: 8
-7 factorial is equal to 40320</b></pre>
+8 factorial is equal to 40320</b></pre>
 ### Test Case 3 Output
 <pre><b>Enter a positive integer: 13
 Invalid integer! Try again!
