@@ -20,6 +20,11 @@ Write a program that prompts a user to enter a positive integer less than 13 the
 Invalid integer! Try again!
 Enter a positive integer: 12
 12 factorial is equal to 479001600</b></pre>
+### Test Case 4 Output
+<pre><b>Enter a positive integer: Sam
+Invalid integer! Try again!
+Enter a positive integer: 5
+5 factorial is equal to 120</b></pre>
 
 
 
